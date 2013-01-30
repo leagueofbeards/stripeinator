@@ -10,7 +10,7 @@ Author URI: http://leagueofbeards.com
 
 class Stripeinator
 {
-	const STRIPE_SEKRET = 'uwBf79xWeyeeOgVOLydNZV9ddR0t8GOL';
+	const STRIPE_SEKRET = '';
 
 	public function __construct() {		
 		add_action( 'init', array( &$this, 'init' ) );
